@@ -14,52 +14,52 @@ class MainActivity : AppCompatActivity() {
             Movies(
                 R.drawable.sing2_desk,
                 "Sing 2",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable.the355,
                 "The 355",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable.scream_desk,
                 "Scream",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable.morbius,
                 "Morbius",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable.uncharted_desk,
                 "Uncharted",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable._563782,
                 "Turning Red",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable.the_batman,
                 "The Batman",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable.nightmare_alley,
                 "Nightmare Alley",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable.daone,
                 "Downtown Abbey A New Era",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
             Movies(
                 R.drawable.death_on_the_nile,
                 "Death on The Nile",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ),
         )
 
