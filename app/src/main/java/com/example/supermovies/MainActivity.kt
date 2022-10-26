@@ -12,45 +12,55 @@ class MainActivity : AppCompatActivity() {
 
         val moviesList = listOf<Movies>(
             Movies(
-                R.drawable.film1_sing2,
+                R.drawable.sing2_desk,
                 "Sing 2",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor, ac tristique arcu ultrices. Sed erat quam, mattis ut dui et, pharetra varius massa. Ut dictum rhoncus ex vitae suscipit. Fusce ut ullamcorper nunc, in posuere risus. Fusce eget tristique urna. Donec condimentum sem eu feugiat aliquam. Phasellus varius dictum justo, quis porta ligula mattis vehicula. Phasellus volutpat malesuada libero et posuere. Vestibulum aliquam dui at commodo imperdiet. Phasellus efficitur metus vel lorem laoreet interdum. Pellentesque cursus pretium hendrerit. Nunc tincidunt augue non tortor dapibus pellentesque. Fusce malesuada scelerisque est, non placerat augue cursus non."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
             ),
             Movies(
-                R.drawable.film2_the355,
+                R.drawable.the355,
                 "The 355",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor, ac tristique arcu ultrices. Sed erat quam, mattis ut dui et, pharetra varius massa. Ut dictum rhoncus ex vitae suscipit. Fusce ut ullamcorper nunc, in posuere risus. Fusce eget tristique urna. Donec condimentum sem eu feugiat aliquam. Phasellus varius dictum justo, quis porta ligula mattis vehicula. Phasellus volutpat malesuada libero et posuere. Vestibulum aliquam dui at commodo imperdiet. Phasellus efficitur metus vel lorem laoreet interdum. Pellentesque cursus pretium hendrerit. Nunc tincidunt augue non tortor dapibus pellentesque. Fusce malesuada scelerisque est, non placerat augue cursus non."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
             ),
             Movies(
-                R.drawable.film3_scream,
+                R.drawable.scream_desk,
                 "Scream",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor, ac tristique arcu ultrices. Sed erat quam, mattis ut dui et, pharetra varius massa. Ut dictum rhoncus ex vitae suscipit. Fusce ut ullamcorper nunc, in posuere risus. Fusce eget tristique urna. Donec condimentum sem eu feugiat aliquam. Phasellus varius dictum justo, quis porta ligula mattis vehicula. Phasellus volutpat malesuada libero et posuere. Vestibulum aliquam dui at commodo imperdiet. Phasellus efficitur metus vel lorem laoreet interdum. Pellentesque cursus pretium hendrerit. Nunc tincidunt augue non tortor dapibus pellentesque. Fusce malesuada scelerisque est, non placerat augue cursus non."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
             ),
             Movies(
-                R.drawable.film5_morbius,
+                R.drawable.morbius,
                 "Morbius",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor, ac tristique arcu ultrices. Sed erat quam, mattis ut dui et, pharetra varius massa. Ut dictum rhoncus ex vitae suscipit. Fusce ut ullamcorper nunc, in posuere risus. Fusce eget tristique urna. Donec condimentum sem eu feugiat aliquam. Phasellus varius dictum justo, quis porta ligula mattis vehicula. Phasellus volutpat malesuada libero et posuere. Vestibulum aliquam dui at commodo imperdiet. Phasellus efficitur metus vel lorem laoreet interdum. Pellentesque cursus pretium hendrerit. Nunc tincidunt augue non tortor dapibus pellentesque. Fusce malesuada scelerisque est, non placerat augue cursus non."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
             ),
             Movies(
-                R.drawable.film7_uncharted,
+                R.drawable.uncharted_desk,
                 "Uncharted",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor, ac tristique arcu ultrices. Sed erat quam, mattis ut dui et, pharetra varius massa. Ut dictum rhoncus ex vitae suscipit. Fusce ut ullamcorper nunc, in posuere risus. Fusce eget tristique urna. Donec condimentum sem eu feugiat aliquam. Phasellus varius dictum justo, quis porta ligula mattis vehicula. Phasellus volutpat malesuada libero et posuere. Vestibulum aliquam dui at commodo imperdiet. Phasellus efficitur metus vel lorem laoreet interdum. Pellentesque cursus pretium hendrerit. Nunc tincidunt augue non tortor dapibus pellentesque. Fusce malesuada scelerisque est, non placerat augue cursus non."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
             ),
             Movies(
-                R.drawable.film9_turning_red,
+                R.drawable._563782,
                 "Turning Red",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor, ac tristique arcu ultrices. Sed erat quam, mattis ut dui et, pharetra varius massa. Ut dictum rhoncus ex vitae suscipit. Fusce ut ullamcorper nunc, in posuere risus. Fusce eget tristique urna. Donec condimentum sem eu feugiat aliquam. Phasellus varius dictum justo, quis porta ligula mattis vehicula. Phasellus volutpat malesuada libero et posuere. Vestibulum aliquam dui at commodo imperdiet. Phasellus efficitur metus vel lorem laoreet interdum. Pellentesque cursus pretium hendrerit. Nunc tincidunt augue non tortor dapibus pellentesque. Fusce malesuada scelerisque est, non placerat augue cursus non."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
             ),
             Movies(
-                R.drawable.film8_the_batman,
+                R.drawable.the_batman,
                 "The Batman",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor, ac tristique arcu ultrices. Sed erat quam, mattis ut dui et, pharetra varius massa. Ut dictum rhoncus ex vitae suscipit. Fusce ut ullamcorper nunc, in posuere risus. Fusce eget tristique urna. Donec condimentum sem eu feugiat aliquam. Phasellus varius dictum justo, quis porta ligula mattis vehicula. Phasellus volutpat malesuada libero et posuere. Vestibulum aliquam dui at commodo imperdiet. Phasellus efficitur metus vel lorem laoreet interdum. Pellentesque cursus pretium hendrerit. Nunc tincidunt augue non tortor dapibus pellentesque. Fusce malesuada scelerisque est, non placerat augue cursus non."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
             ),
             Movies(
-                R.drawable.film4_nightmare_alley,
+                R.drawable.nightmare_alley,
                 "Nightmare Alley",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor, ac tristique arcu ultrices. Sed erat quam, mattis ut dui et, pharetra varius massa. Ut dictum rhoncus ex vitae suscipit. Fusce ut ullamcorper nunc, in posuere risus. Fusce eget tristique urna. Donec condimentum sem eu feugiat aliquam. Phasellus varius dictum justo, quis porta ligula mattis vehicula. Phasellus volutpat malesuada libero et posuere. Vestibulum aliquam dui at commodo imperdiet. Phasellus efficitur metus vel lorem laoreet interdum. Pellentesque cursus pretium hendrerit. Nunc tincidunt augue non tortor dapibus pellentesque. Fusce malesuada scelerisque est, non placerat augue cursus non."
-            )
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum. Phasellus non viverra ipsum, sit amet sodales elit. Morbi faucibus nisl ut dui tempor."
+            ),
+            Movies(
+                R.drawable.daone,
+                "Downtown Abbey A New Era",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+            ),
+            Movies(
+                R.drawable.death_on_the_nile,
+                "Death on The Nile",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed rhoncus mi. Proin consectetur bibendum dictum."
+            ),
         )
 
         val recyclerView = findViewById<RecyclerView>(R.id.rv_movie)
