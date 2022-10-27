@@ -22,6 +22,7 @@ class DetailMovieActivity : AppCompatActivity() {
         imgMovie.setImageResource(supermovies?.imgMovie!!)
         titleMovie.text = supermovies.titleMovie
         descMovie.text = supermovies.descMovie
+
     }
 
     override fun onSupportNavigateUp(): Boolean {

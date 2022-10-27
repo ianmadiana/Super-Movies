@@ -10,7 +10,7 @@
     android:layout_marginTop="4dp"
     android:layout_marginRight="8dp"
     android:layout_marginBottom="4dp"
-    card_view:cardBackgroundColor="#311976D2"
+    card_view:cardBackgroundColor="#4FE91E63"
     card_view:cardCornerRadius="6dp">
 
     <RelativeLayout
@@ -39,7 +39,7 @@
 
         <TextView
             android:id="@+id/tv_item_description"
-            android:layout_width="336dp"
+            android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_above="@+id/layout_button"
             android:layout_below="@id/tv_item_name"
@@ -58,7 +58,7 @@
 
         <TextView
             android:id="@+id/tv_item_name"
-            android:layout_width="299dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginStart="-337dp"
@@ -84,5 +84,6 @@
             android:layout_toEndOf="@id/img_item_photo"
             android:layout_toRightOf="@id/img_item_photo"
             android:orientation="horizontal"></LinearLayout>
+
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

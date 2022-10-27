@@ -60,17 +60,18 @@ class MainActivity : AppCompatActivity() {
             Movies(
                 R.drawable.daone,
                 "Downtown Abbey A New Era",
-                "Film ini bercerita tentang keluarga Crawley dan staf Downton saat persiapan untuk perjalanan ke luar negeri. Violet yang merupakan seorang janda Countes of Grantham mewarisi sebuah villa megah di Perancis Selatan dari seorang teman lama. Violet kemudian menyerahkan villa tersebut kepada Sybil dan Putri Tom, Sibbie, karena ia merupakan satu-satunya cicit yang masa depannya tidak aman. Sementara itu, seorang pembuat film mendpaat izin dari Mary untuk shooting film di Downton Abbey. Robert tidak menyetujui hal ini karena menurutnya membuat aktor dengan riasan berkeliling seluruh rumah merupakan hal yang buruk. Akan tetapi keluarga yang lain dan para pelayan sangat senang dengan hal ini. Untuk menghindari pembuatan \"film menakutkan\" ini beberapa anggota keluarga, termasuk Robert, Tom dan pengantin barunya Lucy, serta ibu Lucy, Maud, melakukan perjalanan ke selatan Prancis untuk memecahkan misteri mengapa teman Violet mewarisi villa untuknya."
+                "Film ini bercerita tentang keluarga Crawley dan staf Downton saat persiapan untuk perjalanan ke luar negeri. Violet yang merupakan seorang janda Countes of Grantham mewarisi sebuah villa megah di Perancis Selatan dari seorang teman lama. Violet kemudian menyerahkan villa tersebut kepada Sybil dan Putri Tom, karena ia merupakan satu-satunya cicit yang masa depannya tidak aman. Sementara itu, seorang pembuat film mendpaat izin dari Mary untuk shooting film di Downton Abbey. Robert tidak menyetujui hal ini karena menurutnya membuat aktor dengan riasan berkeliling seluruh rumah merupakan hal yang buruk. Untuk menghindari pembuatan \"film menakutkan\" ini beberapa anggota keluarga, termasuk Robert, Tom dan pengantin barunya Lucy, serta ibu Lucy, Maud, melakukan perjalanan ke selatan Prancis untuk memecahkan misteri mengapa teman Violet mewarisi villa untuknya."
             ),
             Movies(
                 R.drawable.death_on_the_nile,
                 "Death on The Nile",
                 "kisah dimulai dalam perjalanan kapal pesiar mewah S.S Karnak yang melaju di peraian Sungai Nil. Ketenangan dan kemewahan mulai terusik kala salah satu penumpang ditemukan tewas. Setelah diselidiki, ternyata penumpang tersebut tewas karena dibunuh. Beruntung Hercule Poirot, detektif terbaik asal Belgia adalah salah satu penumpang di kapal tersebut. Poirot yang dihormati dan terkenal akan kecerdasan dan intuisinya yang tajam dalam memecahkan berbagai kasus pembunuhan ini kemudian dipercayakan untuk menemukan pembunuhnya diantara para penumpang sebelum jatuh korban lagi."
-            ),
+            )
         )
 
         val recyclerView = findViewById<RecyclerView>(R.id.rv_movie)
         recyclerView.layoutManager=LinearLayoutManager(this)
+
         recyclerView.setHasFixedSize(true)
         recyclerView.adapter=SuperMoviesAdapter(this, moviesList){
             val intent = Intent(this, DetailMovieActivity::class.java)
