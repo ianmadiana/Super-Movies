@@ -3,6 +3,7 @@ package com.example.supermovies
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -12,10 +13,12 @@ class MainActivity : AppCompatActivity() {
         val INTENT_PARCELABLE= "OBJECT_INTENT"
     }
 
+    //fungsi pada proses onCreate
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //List berisi data-data film yang akan ditampilkan
         val moviesList = listOf<Movies>(
             Movies(
                 R.drawable.sing2_desk,
@@ -70,10 +73,9 @@ class MainActivity : AppCompatActivity() {
         )
 
         val recyclerView = findViewById<RecyclerView>(R.id.rv_movie)
-        recyclerView.layoutManager=LinearLayoutManager(this)
-
+        recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.setHasFixedSize(true)
-        recyclerView.adapter=SuperMoviesAdapter(this, moviesList){
+        recyclerView.adapter = SuperMoviesAdapter(this, moviesList){
             val intent = Intent(this, DetailMovieActivity::class.java)
             intent.putExtra(INTENT_PARCELABLE, it)
             startActivity(intent)

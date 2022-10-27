@@ -1,7 +1,9 @@
 package com.example.supermovies
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
@@ -10,6 +12,12 @@ class DetailMovieActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_movie)
+
+        val ratingBtn = findViewById<Button>(R.id.ratingBtn)
+        ratingBtn.setOnClickListener {
+            val intent = Intent(this, RatingActivity::class.java)
+            startActivity(intent)
+        }
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

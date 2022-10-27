@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -37,5 +38,6 @@ class SuperMoviesAdapter(private val context: Context, private val movie: List<M
         holder.bindView(movie[position], listener)
     }
 
+    //fungsi ini akan mengembalikan ukuran data yang akan ditampilkan
     override fun getItemCount(): Int = movie.size
 }
