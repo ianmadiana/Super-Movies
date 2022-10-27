@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
+//class yang akan utama yang akan dijalankan
 class DetailMovieActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +24,7 @@ class DetailMovieActivity : AppCompatActivity() {
         //library untuk back arrow button
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+        //variabel untuk intent
         val supermovies = intent.getParcelableExtra<Movies>(MainActivity.INTENT_PARCELABLE)
 
         val imgMovie = findViewById<ImageView>(R.id.img_item_photo)

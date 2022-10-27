@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
+    //companion object untuk intent parcelable
     companion object{
         val INTENT_PARCELABLE= "OBJECT_INTENT"
     }
@@ -72,7 +73,7 @@ class MainActivity : AppCompatActivity() {
             )
         )
 
-        //mengatur recycler view
+        //mengatur recyclerview
         val recyclerView = findViewById<RecyclerView>(R.id.rv_movie)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.setHasFixedSize(true)

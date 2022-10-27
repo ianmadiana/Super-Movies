@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+//file adapter untuk aplikasi supermovies
 class SuperMoviesAdapter(private val context: Context, private val movie: List<Movies>, val listener: (Movies)-> Unit)
     : RecyclerView.Adapter<SuperMoviesAdapter.SuperMoviesViewHolder>() {
 
@@ -23,6 +24,7 @@ class SuperMoviesAdapter(private val context: Context, private val movie: List<M
             imgMovie.setImageResource(supermovies.imgMovie)
             titleMovie.text = supermovies.titleMovie
             descMovie.text = supermovies.descMovie
+            //blok kode agar tampilan cardview bisa di-klik
             itemView.setOnClickListener {
                 listener(supermovies)
             }
