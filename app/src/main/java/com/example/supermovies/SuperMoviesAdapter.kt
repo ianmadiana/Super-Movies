@@ -21,6 +21,9 @@ class SuperMoviesAdapter(private val context: Context, private val movie: List<M
             imgMovie.setImageResource(supermovies.imgMovie)
             titleMovie.text = supermovies.titleMovie
             descMovie.text = supermovies.descMovie
+            itemView.setOnClickListener {
+                listener(supermovies)
+            }
         }
     }
 
