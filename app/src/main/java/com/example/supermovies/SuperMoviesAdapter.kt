@@ -13,6 +13,7 @@ class SuperMoviesAdapter(private val context: Context, private val movie: List<M
     : RecyclerView.Adapter<SuperMoviesAdapter.SuperMoviesViewHolder>() {
 
     class SuperMoviesViewHolder(view: View): RecyclerView.ViewHolder(view) {
+        //inisialisasi variabel data
         val imgMovie = view.findViewById<ImageView>(R.id.img_item_photo)
         val titleMovie = view.findViewById<TextView>(R.id.tv_item_name)
         val descMovie = view.findViewById<TextView>(R.id.tv_item_description)
@@ -34,6 +35,7 @@ class SuperMoviesAdapter(private val context: Context, private val movie: List<M
         )
     }
 
+    //fungsi untuk melihat posisi data
     override fun onBindViewHolder(holder: SuperMoviesViewHolder, position: Int) {
         holder.bindView(movie[position], listener)
     }

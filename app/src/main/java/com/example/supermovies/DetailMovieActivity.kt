@@ -13,12 +13,14 @@ class DetailMovieActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_movie)
 
+        //blok kode untuk ke activity rating dengan button
         val ratingBtn = findViewById<Button>(R.id.ratingBtn)
         ratingBtn.setOnClickListener {
             val intent = Intent(this, RatingActivity::class.java)
             startActivity(intent)
         }
 
+        //library untuk back arrow button
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val supermovies = intent.getParcelableExtra<Movies>(MainActivity.INTENT_PARCELABLE)
@@ -27,12 +29,14 @@ class DetailMovieActivity : AppCompatActivity() {
         val titleMovie = findViewById<TextView>(R.id.tv_item_name)
         val descMovie = findViewById<TextView>(R.id.tv_item_description)
 
+        //tampilkan data ke view
         imgMovie.setImageResource(supermovies?.imgMovie!!)
         titleMovie.text = supermovies.titleMovie
         descMovie.text = supermovies.descMovie
 
     }
 
+    //fungsi untuk menampilkan back arrow button
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true

@@ -72,6 +72,7 @@ class MainActivity : AppCompatActivity() {
             )
         )
 
+        //mengatur recycler view
         val recyclerView = findViewById<RecyclerView>(R.id.rv_movie)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.setHasFixedSize(true)
